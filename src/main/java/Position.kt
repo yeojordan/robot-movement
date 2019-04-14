@@ -83,7 +83,7 @@ data class Position(private var x: Int = 0,
      */
     fun report()
     {
-        println("X: $x, Y: $y, Direction: $dir")
+        println("Output: $x,$y,$dir")
     }
 }
 

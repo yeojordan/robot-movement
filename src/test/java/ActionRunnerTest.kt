@@ -57,7 +57,7 @@ class ActionRunnerTest
         PLACE 0,0,EAST
         MOVE
         REPORT
-        Output: 3,3,NORTH
+        Output: 1,0,EAST
         */
         ActionRunner.runActions(listOf("PLACE 1,2,EAST", "MOVE", "MOVE",
                 "LEFT", "PLACE 0,0,EAST", "MOVE", "REPORT"))
@@ -72,7 +72,7 @@ class ActionRunnerTest
         PLACE 0,0,WEST
         MOVE
         REPORT
-        Output: 3,3,NORTH
+        Output: 0,0,WEST
         */
         ActionRunner.runActions(listOf("PLACE 0,0,WEST", "MOVE", "REPORT"))
 
